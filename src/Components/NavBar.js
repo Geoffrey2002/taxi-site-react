@@ -145,6 +145,11 @@ function Nav() {
                 className="justify-end px-2 pt-2 pb-3 space-y-1 sm:px-3"
               >
                 <NavLink
+                  style={({ isActive }) => {
+                    return {
+                      color: isActive ? "yellow" : "",
+                    };
+                  }}
                   to="/"
                   className="block px-3 py-2 text-base font-medium text-white rounded-md hover:bg-gray-700"
                 >
@@ -152,29 +157,48 @@ function Nav() {
                 </NavLink>
 
                 <NavLink
-                  href="/about"
+                  style={({ isActive }) => {
+                    return {
+                      color: isActive ? "yellow" : "",
+                    };
+                  }}
+                  to="/about"
                   className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white"
                 >
                   About
                 </NavLink>
 
                 <NavLink
-                  href="/whatwedo"
+                  style={({ isActive }) => {
+                    return {
+                      color: isActive ? "yellow" : "",
+                    };
+                  }}
+                  to="/whatwedo"
                   className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white"
                 >
                   What We Do
                 </NavLink>
 
                 <NavLink
-                  activeClassName="active"
-                  href="/services"
+                  style={({ isActive }) => {
+                    return {
+                      color: isActive ? "yellow" : "",
+                    };
+                  }}
+                  to="/services"
                   className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md active:bg-red-700 hover:bg-gray-700 hover:text-white"
                 >
                   Services
                 </NavLink>
 
                 <NavLink
-                  href="/contact"
+                  style={({ isActive }) => {
+                    return {
+                      color: isActive ? "yellow" : "",
+                    };
+                  }}
+                  to="/contact"
                   className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white"
                 >
                   Contact
