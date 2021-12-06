@@ -21,6 +21,11 @@ function Nav() {
               <div className="hidden md:block">
                 <div className="flex items-baseline ml-10 space-x-4">
                   <NavLink
+                    style={({ isActive }) => {
+                      return {
+                        color: isActive ? "yellow" : "",
+                      };
+                    }}
                     to="/"
                     className="px-3 py-2 text-sm font-medium text-white rounded-md hover:bg-gray-700"
                   >
@@ -28,6 +33,11 @@ function Nav() {
                   </NavLink>
 
                   <NavLink
+                    style={({ isActive }) => {
+                      return {
+                        color: isActive ? "yellow" : "",
+                      };
+                    }}
                     to="/About"
                     className="px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white"
                   >
@@ -35,6 +45,11 @@ function Nav() {
                   </NavLink>
 
                   <NavLink
+                    style={({ isActive }) => {
+                      return {
+                        color: isActive ? "yellow" : "",
+                      };
+                    }}
                     to="/whatwedo"
                     className="px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white"
                   >
@@ -42,6 +57,11 @@ function Nav() {
                   </NavLink>
 
                   <NavLink
+                    style={({ isActive }) => {
+                      return {
+                        color: isActive ? "yellow" : "",
+                      };
+                    }}
                     to="/service"
                     className="px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white"
                   >
@@ -49,6 +69,11 @@ function Nav() {
                   </NavLink>
 
                   <NavLink
+                    style={({ isActive }) => {
+                      return {
+                        color: isActive ? "yellow" : "",
+                      };
+                    }}
                     to="/contact"
                     className="px-3 py-2 text-sm font-medium text-gray-300 rounded-md hover:bg-gray-700 hover:text-white"
                   >
