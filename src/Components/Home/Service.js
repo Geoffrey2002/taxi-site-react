@@ -2,7 +2,7 @@ import React from "react";
 import car from "../../images/car.png";
 const Service = () => {
   return (
-    <section className="bg-yellow-400">
+    <section className="grid bg-yellow-400 ">
       <div className="absolute w-3/4 pl-32">
         <p className="pt-10 text-6xl font-bold text-white uppercase">
           The largest taxi services

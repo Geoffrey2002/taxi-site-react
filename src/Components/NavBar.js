@@ -186,7 +186,7 @@ function Nav() {
                       color: isActive ? "yellow" : "",
                     };
                   }}
-                  to="/services"
+                  to="/service"
                   className="block px-3 py-2 text-base font-medium text-gray-300 rounded-md active:bg-red-700 hover:bg-gray-700 hover:text-white"
                 >
                   Services

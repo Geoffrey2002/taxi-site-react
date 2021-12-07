@@ -35,7 +35,7 @@ const Offer = () => {
   ];
 
   return (
-    <div className="grid gap-10 bg-gray-900 lg:grid-cols-3 h-96">
+    <div className="grid gap-6 bg-gray-900  md:grid-cols-3 sm:grid-cols-2">
       {items.map((item, index) => {
         return (
           <div className="text-white card " key={index}>
